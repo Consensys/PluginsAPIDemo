@@ -138,7 +138,7 @@ public class GasSpendingMetricsPlugin implements BesuPlugin {
         metrics.createLabelledCounter(
             metricCategory,
             "total",
-            "Total amount of gas executed by all propigated blocks.",
+            "Total amount of gas executed by all propagated blocks.",
             "source");
     baseGasCounter = counters.labels("base");
     createGasCounter = counters.labels("create");
