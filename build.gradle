@@ -9,7 +9,7 @@ sourceCompatibility = 11
 
 repositories {
     jcenter()
-    maven { url 'https://hyperledger-org.bintray.com/besu-repo' }
+    maven { url 'https://hyperledger.jfrog.io/hyperledger/besu-maven' }
     mavenCentral()
 }
 
